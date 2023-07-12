@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practice Project Webstie Design</title>
+  <!-- ICON -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- GOOGEL FONT -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- MAIN CSS FILE -->
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body class=" font-[poppins] overflow-x-hidde">
+  <!-- START THE HEADER PART -->
+  <header class="bg-white shadow-2xl p-1 ">
+    <nav class="md:flex md:items-center md:justify-between px-2 py-3 w-[95%] md:w-[992px] lg:w-[1200px] mx-auto">
+      <div class="flex items-center justify-between">
+        <a href="http://localhost:5173/">
+          <img class="w-28" src="./images/logo.png" />
+        </a>
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+        </span>
+      </div>
+      <div class="">
+        <ul
+          class="md:flex my-4 pl-7 md:pl-0 md:my-0 items-center md:gap-6 z-100 md:z-auto md:static absolute bg-[#ffffff] md:bg-white w-full left-0 opacity-0 md:opacity-100 top-[-300px] transition-all duration-300 ease-linear">
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">Home</a>
+          </li>
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">About</a>
+          </li>
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">Services</a>
+          </li>
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">Portfolio</a>
+          </li>
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">Blog</a>
+          </li>
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">Contact</a>
+          </li>
+          <div>
+            <button
+              class="bg-[#009688] text-white hover:bg-[#087469] px-5 py-1 rounded-sm transition-all duration-300 mb-5 md:mb-0">Login</button>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!--  COMPLETE THE HEADER PART -->
+
+
+  <!-- START THE HERO SECTION -->
+  <div class="bg-[#f6f8fb]">
+    <div class="md:flex items-center w-[95%] md:w-[992px] lg:w-[1200px] mx-auto pb-[100px]">
+      <div class="w-[100%] md:w-[55%] pt-[100px]">
+        <h1 class="text-[40px] md:text-[55px] lg:text-[64px] font-bold text-[#02073E] leading-[80px] ">Great software is
+          built with amazing developers</h1>
+        <p class="text-[18px] leading-[42px] mt-6 text-[#02073E]">We help build and manage a team of world-class<br />
+          developers to bring your vision to life</p>
+        <div class="mt-8">
+          <input class="p-3 md:p-5 bg-white text-[16px] outline-none rounded-md w-[150px] md:w-[400px] shadow-lg"
+            type="text" placeholder="Subscribe newsletter">
+          <button
+            class="bg-[#087469] text-white ml-4 px-6 py-4 hover:bg-[#009688] transition-all duration-200 rounded-md text-[20px]">Subscribe</button>
+        </div>
+        <div class="mt-12 flex gap-6">
+          <span>Sponsored by:</span>
+          <img src="./images/paypal.png" alt="">
+          <img src="./images/google.png" alt="">
+          <img src="./images/dropbox.png" alt="">
+        </div>
+      </div>
+      <div class="w-[100%] md:w-[45%] pt-[100px]">
+        <img src="./images/banner.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- END THE HERO SECTION -->
+
+  <!-- START THE QUALITY FEATURE SECTION  -->
+  <div class="pt-[100px] pb-[100px] md:w-[992px] lg:w-[1200px] mx-auto">
+    <div class="text-center">
+      <p class="text-[18px] font-bold text-[#087469]">Quality features</p>
+      <h2 class="text-[30px] font-bold text-[#0F2137] leading-[55px]">Meet exciting feature of app</h2>
+    </div>
+    <div class=" md:flex md:justify-between mx-auto mt-20">
+      <div class="w-[100%] px-[100px] md:px-0 md:w-[20%] text-center">
+        <img class="mx-auto" src="./images/Frame1.png" alt="">
+        <p class="text-[18px] leading-[30px] font-bold text-[#0F2137] mt-5 mb-5">Unlimited Customization</p>
+        <p class="text-[15px] leading-[28px] text-[#343D48] font-[400]">Get your blood tests delivered at home collect a
+          sample from the your blood tests.</p>
+      </div>
+      <div class="w-[100%] px-[100px] md:px-0 md:w-[20%] text-center">
+        <img class="mx-auto" src="./images/Frame2.png" alt="">
+        <p class="text-[18px] leading-[30px] font-bold text-[#0F2137] mt-5 mb-5">Vector shape & resizable</p>
+        <p class="text-[15px] leading-[28px] text-[#343D48] font-[400]">Get your blood tests delivered at home collect a
+          sample from the your blood tests.</p>
+      </div>
+      <div class="w-[100%] px-[100px] md:px-0 md:w-[20%] text-center">
+        <img class="mx-auto" src="./images/Frame3.png" alt="">
+        <p class="text-[18px] leading-[30px] font-bold text-[#0F2137] mt-5 mb-5">Editing freedom</p>
+        <p class="text-[15px] leading-[28px] text-[#343D48] font-[400]">Get your blood tests delivered at home collect a
+          sample from the your blood tests.</p>
+      </div>
+      <div class="w-[100%] px-[100px] md:px-0 md:w-[20%] text-center">
+        <img class="mx-auto" src="./images/Frame4.png" alt="">
+        <p class="text-[18px] leading-[30px] font-bold text-[#0F2137] mt-5 mb-5">Best Award history</p>
+        <p class="text-[15px] leading-[28px] text-[#343D48] font-[400]">Get your blood tests delivered at home collect a
+          sample from the your blood tests.</p>
+      </div>
+    </div>
+  </div>
+  <!-- END THE QUALITY FEATURE SECTION  -->
+
+  <!-- START THE BOOST AGENCIES SECTION  -->
+  <div class="md:flex md:justify-between pt-[70px] pb-[100px] md:w-[992px] lg:w-[1200px] mx-auto ">
+    <div class="w-full md:w-[40%]">
+      <img class="w-[150%]" src="./images/boost.png" alt="">
+    </div>
+    <div class="w-full md:w-[45%] ml-10 md:ml-0">
+      <h2 class="text-[48px] leading-[60px] text-[#0F2137] font-bold mb-12">Boost your agencies by choosing Ninja
+        Developers</h2>
+      <p class="text-[17px] leading-[34px] text-[#02073E] md:pr-[40px]">Create custom landing pages with Shades that
+        convert more visitors than any website, no coding required.</p>
+      <div class="flex mt-5">
+        <box-icon type='solid' class="fill-[#DADADA] mr-3" name='check-circle'></box-icon>
+        <p class="text-[#02073E] text-[18px] mb-3">Unlimited design possibility</p>
+      </div>
+      <div class="flex">
+        <box-icon type='solid' class="fill-[#DADADA] mr-3" name='check-circle'></box-icon>
+        <p class="text-[#02073E] text-[18px] mb-3">Completely responsive features</p>
+      </div>
+      <div class="flex">
+        <box-icon type='solid' class="fill-[#DADADA] mr-3" name='check-circle'></box-icon>
+        <p class="text-[#02073E] text-[18px] mb-3">Easy to customize plugins</p>
+      </div>
+      <button class="text-[#087469] text-[16px] font-bold ml-9 flex items-center">Learn more <box-icon
+          class="fill-[#087469] font-bold" name='chevron-right'></box-icon></button>
+    </div>
+  </div>
+  <!-- END THE BOOST AGENCIES SECTION  -->
+
+  <!-- START THE LEADING COMPANICES SECTION -->
+  <div class="w-full px-16 md:px-0 md:w-[992px] lg:w-[1200px] mx-auto pt-[20px] pb-[100px]">
+    <div class="text-center w-full md:w-[60%] mx-auto  ">
+      <h2 class="text-[48px] leading-[60px] font-bold text-[#0F2137] mb-7">Leading companies trust us to develop
+        software</h2>
+      <p class="text-[17px] leading-[34px] text-[#343D48] px-10">We believe it’s important for everyone to have access
+        to software especially when it comes to digital learning be navigate.</p>
+      <button
+        class="text-[#087469] w-[100%] text-center text-[16px] mt-4 font-bold flex items-center justify-center">Explore
+        Details <box-icon class="fill-[#087469] font-bold" name='chevron-right'></box-icon></button>
+    </div>
+    <div class="w-[80%] mx-auto mt-16">
+      <img src="./images/video.png" alt="">
+    </div>
+  </div>
+  <!-- END THE LEADING COMPANICES SECTION -->
+
+  <!-- START THE CUSTOMARS COMMENTS SECTON -->
+  <div class="pt-10 pb-24 w-full md:w-[992px] lg:w-[1200px] mx-auto">
+    <div class="text-center">
+      <p class="text-[18px] leadign-[40px] text-[#087469] mb-2 font-bold">Customer Comments</p>
+      <h2 class="text-[30px] leading-[55px] text-[#0F2137] font-bold mb-10">Why customers love us</h2>
+      <p class="w-full md:w-[70%] mx-auto text-[30px] leading-[65px] text-[#0F2137]">They are doing amazing job with
+        hundred percent customer satisfaction, Love their work and would like to work with them again</p>
+    </div>
+    <div class="w-[70%] mx-auto">
+      <div class="md:flex md:justify-between mt-16">
+        <div class="flex">
+          <img class="mr-3" src="./images/Ellipse1.png" alt="">
+          <div>
+            <p class="text-[18px] leading-[30px] font-[700] text-[#0F2137]">Fast Performance</p>
+            <p class="text-[15px] leading-[28px] text-[#343D48]">VP of Engineering</p>
+          </div>
+        </div>
+        <div class="flex">
+          <img class="mr-3" src="./images/Ellipse2.png" alt="">
+          <div>
+            <p class="text-[18px] leading-[30px] font-[700] text-[#0F2137]">Natalia Sanz</p>
+            <p class="text-[15px] leading-[28px] text-[#343D48]">Head of Technology</p>
+          </div>
+        </div>
+        <div class="flex">
+          <img class="mr-3" src="./images/Ellipse3.png" alt="">
+          <div>
+            <p class="text-[18px] leading-[30px] font-[700] text-[#0F2137]">Ece Akman</p>
+            <p class="text-[15px] leading-[28px] text-[#343D48]">Senior Marketer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END THE CUSTOMARS COMMENTS SECTON -->
+
+  <!-- START THE FREE CUSTOMARS SUPPORTS SECTION -->
+  <div class="w-full md:flex md:justify-between md:w-[992px] lg:w-[1200px] mx-auto pt-12 pb-24 ">
+    <div class="w-[50%]">
+      <h2 class="text-[48px] leading-[60px] font-bold text-[#0F2137] mb-12">Free Customer Support to ensure what you
+        like to expect</h2>
+      <p class="text-[17px] leading-[35px] font-[400] text-[#343D48] mb-3">We offer a risk-free trial period of up to
+        two weeks. You will only have to pay if you are happy with the developer and wish to continue. If you are
+        unsatisfied, we’ll refund payment or fix issues on our dime period customers.</p>
+      <p class="text-[15px] leading-[34px] font-[400] text-[#02073E] mb-2">If you are happy with the developer and wish
+        to continue. If you are unsatisfied, we’ll refund payment or fix issues.</p>
+      <button class="text-[#087469] text-[16px] font-bold flex items-center">Learn more <box-icon
+          class="fill-[#087469] font-bold" name='chevron-right'></box-icon></button>
+    </div>
+    <div class="w-[40%]">
+      <img src="./images/customers.png" alt="">
+    </div>
+  </div>
+  <!-- END THE FREE CUSTOMARS SUPPORTS SECTION -->
+
+  <!-- START THE BLOGS POSTS SECTION -->
+  <div class="py-24 bg-[#F8FAFC]">
+    <div class="w-full md:w-[992px] lg:w-[1200px] mx-auto ">
+      <div class="">
+        <div class="text-center">
+          <p class="text-[18px] font-bold text-[#087469]">Quality features</p>
+          <h2 class="text-[30px] font-bold text-[#0F2137] leading-[55px]">Meet exciting feature of app</h2>
+        </div>
+      </div>
+      <div class="md:flex md:justify-between mt-12">
+        <div class="w-full] md:w-[31%] shadow-lg bg-white rounded-md ">
+          <img src="./images/blog1.png" alt="">
+          <div class="pt-3 pb-5 pl-3">
+            <p class="text-[18px] font-bold text-[#0F2137]">How to work with prototype design with adobe xd featuring
+              tools</p>
+            <p class="flex items-center pt-2 text-[16px] text-[#343D48]"><box-icon class="fill-[#343D48] mr-2"
+                name='message-rounded-dots'></box-icon>22 comments</p>
+          </div>
+        </div>
+        <div class="w-full] md:w-[31%] shadow-lg bg-white rounded-md ">
+          <img src="./images/blog2.png" alt="">
+          <div class="pt-3 pb-5 pl-3">
+            <p class="text-[18px] font-bold text-[#0F2137]">Create multiple artboard by using figma prototyping
+              development</p>
+            <p class="flex items-center pt-2 text-[16px] text-[#343D48]"><box-icon class="fill-[#343D48] mr-2"
+                name='message-rounded-dots'></box-icon>15 comments</p>
+          </div>
+        </div>
+        <div class="w-full] md:w-[31%] shadow-lg bg-white rounded-md ">
+          <img src="./images/blog3.png" alt="">
+          <div class="pt-3 pb-5 pl-3">
+            <p class="text-[18px] font-bold text-[#0F2137]">Convert your web layout theming easily with sketch zeplin
+              extension</p>
+            <p class="flex items-center pt-2 text-[16px] text-[#343D48]"><box-icon class="fill-[#343D48] mr-2"
+                name='message-rounded-dots'></box-icon>18 comments</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- END THE BLOGS POSTS SECTOIN -->
+
+  <!-- START HIRE THE WROLD'S BEST DEVELOPER SECTION -->
+  <div class="w-full md:w-[992px] lg:w-[1200px] mx-auto pt-10 pb-10">
+    <div class="bg-[#087469] mx-auto flex items-center text-white rounded-lg">
+      <div class="w-[55%]">
+        <h2 class="text-[32px] font-bold leading-[55px] px-12 py-12">Hire the world’s best developers and designers
+          around!</h2>
+      </div>
+      <div class="w-[45%] relative">
+        <div class="">
+          <img class="w-[80%]  " src="./images/pattarn.png" alt="">
+        </div>
+        <button class="bg-white text-[#087469] px-4 py-3 rounded-md absolute top-[31px] right-[58px]">HIRE DEVELOPERS</button>
+      </div>
+    </div>
+  </div>
+  <!-- END HIRE THE WROLD'S BEST DEVELOPER SECTION -->
+
+  <!-- START THE FOOTER SECTION -->
+  <div class="w-full md:w-[992px] lg:w-[1200px] pb-5 mx-auto">
+    <div class="flex justify-between items-center">
+      <div>
+        <img class="w-[50%]" src="./images/logo.png" alt="">
+      </div>
+      <div>
+        <ul
+          class="md:flex my-4 pl-7 md:pl-0 md:my-0 items-center md:gap-6 z-100 md:z-auto md:static absolute bg-[#ffffff] md:bg-white w-full left-0 opacity-0 md:opacity-100 top-[-300px] transition-all duration-300 ease-linear">
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">Home</a>
+          </li>
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">About</a>
+          </li>
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">Services</a>
+          </li>
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">Portfolio</a>
+          </li>
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">Blog</a>
+          </li>
+          <li class="my-3 md:my-0">
+            <a class="hover:text-[#087469] my-4 font-[500] transition-all duration-200" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- END THE FOOTER SECTION  -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="module" src="/main.js"></script>
+  <script>
+    function Menu(e) {
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close", list.classList.add('top-[50px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[50px]'), list.classList.remove('opacity-100'))
+    }
+  </script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
