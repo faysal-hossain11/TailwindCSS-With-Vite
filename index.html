@@ -19,7 +19,7 @@
 
 <body class=" font-[poppins] overflow-x-hidde">
   <!-- START THE HEADER PART -->
-  <header class="bg-white shadow-2xl p-1 ">
+  <header class="bg-white shadow-2xl p-1 fixed w-full">
     <nav class="md:flex md:items-center md:justify-between px-2 py-3 w-[95%] md:w-[992px] lg:w-[1200px] mx-auto">
       <div class="flex items-center justify-between">
         <a href="http://localhost:5173/">
@@ -52,7 +52,7 @@
           </li>
           <div>
             <button
-              class="bg-[#009688] text-white hover:bg-[#087469] px-5 py-1 rounded-sm transition-all duration-300 mb-5 md:mb-0">Login</button>
+              class="bg-[#087469] text-white hover:bg-[#009688] px-5 py-1 rounded-sm transition-all duration-300 mb-5 md:mb-0">Login</button>
           </div>
         </ul>
       </div>
@@ -64,7 +64,7 @@
   <!-- START THE HERO SECTION -->
   <div class="bg-[#f6f8fb]">
     <div class="md:flex items-center w-[95%] md:w-[992px] lg:w-[1200px] mx-auto pb-[100px]">
-      <div class="w-[100%] md:w-[55%] pt-[100px]">
+      <div class="text-center md:text-left lg:text-left w-[100%] md:w-[55%] pt-[180px]">
         <h1 class="text-[40px] md:text-[55px] lg:text-[64px] font-bold text-[#02073E] leading-[80px] ">Great software is
           built with amazing developers</h1>
         <p class="text-[18px] leading-[42px] mt-6 text-[#02073E]">We help build and manage a team of world-class<br />
@@ -73,16 +73,16 @@
           <input class="p-3 md:p-5 bg-white text-[16px] outline-none rounded-md w-[150px] md:w-[400px] shadow-lg"
             type="text" placeholder="Subscribe newsletter">
           <button
-            class="bg-[#087469] text-white ml-4 px-6 py-4 hover:bg-[#009688] transition-all duration-200 rounded-md text-[20px]">Subscribe</button>
+            class="bg-[#087469] text-white ml-4 px-4 md:px-6 py-3 md:py-4 hover:bg-[#009688] transition-all duration-200 rounded-md text-[20px]">Subscribe</button>
         </div>
-        <div class="mt-12 flex gap-6">
+        <div class=" mt-12 flex gap-6">
           <span>Sponsored by:</span>
           <img src="./images/paypal.png" alt="">
           <img src="./images/google.png" alt="">
           <img src="./images/dropbox.png" alt="">
         </div>
       </div>
-      <div class="w-[100%] md:w-[45%] pt-[100px]">
+      <div class="w-[100%] md:w-[45%] pt-[180px]">
         <img src="./images/banner.png" alt="">
       </div>
     </div>
@@ -129,7 +129,7 @@
     <div class="w-full md:w-[40%]">
       <img class="w-[150%]" src="./images/boost.png" alt="">
     </div>
-    <div class="w-full md:w-[45%] ml-10 md:ml-0">
+    <div class="w-full md:w-[45%] ml-10 md:ml-0 text-center md:text-left lg:text-left">
       <h2 class="text-[48px] leading-[60px] text-[#0F2137] font-bold mb-12">Boost your agencies by choosing Ninja
         Developers</h2>
       <p class="text-[17px] leading-[34px] text-[#02073E] md:pr-[40px]">Create custom landing pages with Shades that
@@ -179,21 +179,21 @@
     </div>
     <div class="w-[70%] mx-auto">
       <div class="md:flex md:justify-between mt-16">
-        <div class="flex">
+        <div class="flex mb-6 md:mb-0 lg:mb-0">
           <img class="mr-3" src="./images/Ellipse1.png" alt="">
           <div>
             <p class="text-[18px] leading-[30px] font-[700] text-[#0F2137]">Fast Performance</p>
             <p class="text-[15px] leading-[28px] text-[#343D48]">VP of Engineering</p>
           </div>
         </div>
-        <div class="flex">
+        <div class="flex mb-6 md:mb-0 lg:mb-0">
           <img class="mr-3" src="./images/Ellipse2.png" alt="">
           <div>
             <p class="text-[18px] leading-[30px] font-[700] text-[#0F2137]">Natalia Sanz</p>
             <p class="text-[15px] leading-[28px] text-[#343D48]">Head of Technology</p>
           </div>
         </div>
-        <div class="flex">
+        <div class="flex mb-6 md:mb-0 lg:mb-0">
           <img class="mr-3" src="./images/Ellipse3.png" alt="">
           <div>
             <p class="text-[18px] leading-[30px] font-[700] text-[#0F2137]">Ece Akman</p>
@@ -207,7 +207,7 @@
 
   <!-- START THE FREE CUSTOMARS SUPPORTS SECTION -->
   <div class="w-full md:flex md:justify-between md:w-[992px] lg:w-[1200px] mx-auto pt-12 pb-24 ">
-    <div class="w-[50%]">
+    <div class="w-[50%] text-center md:text-left lg:text-left mx-auto">
       <h2 class="text-[48px] leading-[60px] font-bold text-[#0F2137] mb-12">Free Customer Support to ensure what you
         like to expect</h2>
       <p class="text-[17px] leading-[35px] font-[400] text-[#343D48] mb-3">We offer a risk-free trial period of up to
@@ -218,7 +218,7 @@
       <button class="text-[#087469] text-[16px] font-bold flex items-center">Learn more <box-icon
           class="fill-[#087469] font-bold" name='chevron-right'></box-icon></button>
     </div>
-    <div class="w-[40%]">
+    <div class="w-[40%] mx-auto">
       <img src="./images/customers.png" alt="">
     </div>
   </div>
@@ -233,8 +233,8 @@
           <h2 class="text-[30px] font-bold text-[#0F2137] leading-[55px]">Meet exciting feature of app</h2>
         </div>
       </div>
-      <div class="md:flex md:justify-between mt-12">
-        <div class="w-full] md:w-[31%] shadow-lg bg-white rounded-md ">
+      <div class="md:flex md:justify-between mt-12 text-center md:text-left lg:text-left">
+        <div class="w-full md:w-[31%] shadow-lg bg-white rounded-md ">
           <img src="./images/blog1.png" alt="">
           <div class="pt-3 pb-5 pl-3">
             <p class="text-[18px] font-bold text-[#0F2137]">How to work with prototype design with adobe xd featuring
@@ -243,7 +243,7 @@
                 name='message-rounded-dots'></box-icon>22 comments</p>
           </div>
         </div>
-        <div class="w-full] md:w-[31%] shadow-lg bg-white rounded-md ">
+        <div class="w-full md:w-[31%] shadow-lg bg-white rounded-md ">
           <img src="./images/blog2.png" alt="">
           <div class="pt-3 pb-5 pl-3">
             <p class="text-[18px] font-bold text-[#0F2137]">Create multiple artboard by using figma prototyping
@@ -252,7 +252,7 @@
                 name='message-rounded-dots'></box-icon>15 comments</p>
           </div>
         </div>
-        <div class="w-full] md:w-[31%] shadow-lg bg-white rounded-md ">
+        <div class="w-full md:w-[31%] shadow-lg bg-white rounded-md ">
           <img src="./images/blog3.png" alt="">
           <div class="pt-3 pb-5 pl-3">
             <p class="text-[18px] font-bold text-[#0F2137]">Convert your web layout theming easily with sketch zeplin
